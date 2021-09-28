@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+    background-color:rgb(175, 242, 242);
+    padding: 10px;
+    margin: auto;
+    height: 180px;
+}
+.header::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    
+}
+.login_area {
+    background: linear-gradient(#fff4f4, #D4D9E9);
+    margin-top: -35px;
+    padding: 0;
+}
+.login_area::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.container{
+    margin: auto;
+    padding: 0;
+    width: 700px;
+    height: 370px;
+    background-color: wheat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.b1{
+    width: 200px;
+    height: 200px;
+    font-size: 40px;
+    font-family: Arial;
+    background-color:rgb(154, 250, 58);
+    margin-top: 80px;
+    margin-left: 80px;
+    float: left;
+    text-decoration: none;
+}
+.b2{
+    width: 200px;
+    height: 200px;
+    font-size: 40px;
+    font-family: Arial;
+    background-color:rgb(154, 250, 58);
+    margin-top: 80px;
+    margin-right: 80px;
+    float: right;
+}
+
+
+.footer{
+    height: 150px;
+    background-color:  #333E4F;
+    margin: -10px;
+}
+.ul1{
+    margin-left: 400px;
+    float: left;
+    font-size: 20px;
+    color: #9CA9BE;
+}
+.ul2{
+    float: right;
+    margin-right: 300px;
+    font-size: 20px;
+    color: #9CA9BE;
+}
